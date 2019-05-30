@@ -1,0 +1,23 @@
+{
+  "name": "storyteller_core",
+  "version": "1.0.0",
+  "description": "i am a little bit confused about the meta recursion, but this repository is for  * make use of storyteller client for building storyteller itself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toukubo/storyteller_core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toukubo/storyteller_core/issues"
+  },
+  "homepage": "https://github.com/toukubo/storyteller_core#readme",
+  "dependencies": {
+    "storyteller_airtable_syncer": "file:../storyteller_airtable_syncer",
+    "storyteller_sync": "file:../storyteller_sync"
+  }
+}
