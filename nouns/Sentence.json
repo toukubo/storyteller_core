@@ -1,0 +1,39 @@
+{
+  "attrs": [
+    {
+      "name": "value",
+      "noun": [
+        "recdNZyaBb8FrUUC2"
+      ],
+      "type": [
+        "recpOLh2T0mHDX3OI"
+      ],
+      "id": "rec4q9bMRzBnXCTGD"
+    },
+    {
+      "name": "stack",
+      "noun": [
+        "recdNZyaBb8FrUUC2"
+      ],
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "id": "recfRxFYjm2psEOI5"
+    },
+    {
+      "name": "name",
+      "noun": [
+        "recdNZyaBb8FrUUC2"
+      ],
+      "type": [
+        "recpOLh2T0mHDX3OI"
+      ],
+      "id": "recijTxk5FHBSLmvj"
+    }
+  ],
+  "project": [
+    "recwCeEHF535LS65a"
+  ],
+  "name": "Sentence",
+  "id": "recdNZyaBb8FrUUC2"
+}

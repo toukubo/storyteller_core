@@ -1,0 +1,39 @@
+{
+  "attrs": [
+    {
+      "name": "name",
+      "noun": [
+        "recHAY0E9vSgB4pMW"
+      ],
+      "type": [
+        "recpOLh2T0mHDX3OI"
+      ],
+      "id": "rec0ngF8KgKPuhADy"
+    },
+    {
+      "name": "type",
+      "noun": [
+        "recHAY0E9vSgB4pMW"
+      ],
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "id": "recYThnNt3ZfKibdk"
+    },
+    {
+      "name": "noun",
+      "noun": [
+        "recHAY0E9vSgB4pMW"
+      ],
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "id": "recdIQSmoHRl7E0cM"
+    }
+  ],
+  "project": [
+    "recwCeEHF535LS65a"
+  ],
+  "name": "Attr",
+  "id": "recHAY0E9vSgB4pMW"
+}
