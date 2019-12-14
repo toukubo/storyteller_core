@@ -1,0 +1,50 @@
+{
+  "attrs": [
+    {
+      "name": "tag",
+      "noun": [
+        "recv0VpCiwKuOjINz"
+      ],
+      "id": "rec0JxqiqmPMxuXmP"
+    },
+    {
+      "name": "parent",
+      "noun": [
+        "recv0VpCiwKuOjINz"
+      ],
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "id": "recB7Jk754SSwMv2b"
+    },
+    {
+      "name": "included",
+      "noun": [
+        "recv0VpCiwKuOjINz"
+      ],
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "id": "recIMqvlUTlGtlUwe"
+    },
+    {
+      "name": "official",
+      "noun": [
+        "recv0VpCiwKuOjINz"
+      ],
+      "type": [
+        "recALYcQVLg2vGdXV"
+      ],
+      "id": "recMW0BIlMiEe590R"
+    }
+  ],
+  "project": [
+    "recwCeEHF535LS65a"
+  ],
+  "name": "Framework",
+  "lower": "framework",
+  "Sentences": [
+    "recpZr6qlVJnWauKo"
+  ],
+  "id": "recv0VpCiwKuOjINz"
+}

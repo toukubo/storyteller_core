@@ -1,0 +1,40 @@
+{
+  "attrs": [
+    {
+      "name": "file_path_template",
+      "noun": [
+        "recFDyEDM3s1Fb0M5"
+      ],
+      "type": [
+        "recpOLh2T0mHDX3OI"
+      ],
+      "id": "recfB0tB44d5vMfF4"
+    },
+    {
+      "name": "verb",
+      "noun": [
+        "recFDyEDM3s1Fb0M5"
+      ],
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "id": "recjyAaPaPF1Knazp"
+    },
+    {
+      "name": "file_path",
+      "noun": [
+        "recFDyEDM3s1Fb0M5"
+      ],
+      "id": "recznhyION8ccWFlX"
+    }
+  ],
+  "project": [
+    "recwCeEHF535LS65a"
+  ],
+  "name": "Template",
+  "lower": "template",
+  "Sentences": [
+    "recUKaXnNckxVLxuw"
+  ],
+  "id": "recFDyEDM3s1Fb0M5"
+}

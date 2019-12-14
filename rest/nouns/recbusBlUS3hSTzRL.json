@@ -1,7 +1,16 @@
 {
+  "attrs": [
+    "recqK8UdhlvmVy93d",
+    "recjhg9qw5humv623",
+    "rechEcOhcPXZvjiOc"
+  ],
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Sentences",
+  "name": "Sentence",
+  "lower": "sentence",
+  "Sentences": [
+    "recTtA1WXe7vfMOHL"
+  ],
   "id": "recbusBlUS3hSTzRL"
 }

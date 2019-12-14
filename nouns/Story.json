@@ -1,0 +1,33 @@
+{
+  "attrs": [
+    {
+      "name": "main",
+      "noun": [
+        "recgpyZn8LsyyPRKy"
+      ],
+      "type": [
+        "recALYcQVLg2vGdXV"
+      ],
+      "id": "rec9a1oMEn52fPNpr"
+    },
+    {
+      "name": "narrative",
+      "noun": [
+        "recgpyZn8LsyyPRKy"
+      ],
+      "type": [
+        "recnFy1Wp07CZigEU"
+      ],
+      "id": "recct3BSucDq87pxC"
+    }
+  ],
+  "project": [
+    "recwCeEHF535LS65a"
+  ],
+  "name": "Story",
+  "lower": "story",
+  "Sentences": [
+    "reclnovDueXmjxh1Z"
+  ],
+  "id": "recgpyZn8LsyyPRKy"
+}

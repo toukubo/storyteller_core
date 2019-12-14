@@ -1,7 +1,17 @@
 {
+  "attrs": [
+    "recMW0BIlMiEe590R",
+    "recB7Jk754SSwMv2b",
+    "recIMqvlUTlGtlUwe",
+    "rec0JxqiqmPMxuXmP"
+  ],
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Frameworks",
+  "name": "Framework",
+  "lower": "framework",
+  "Sentences": [
+    "recpZr6qlVJnWauKo"
+  ],
   "id": "recv0VpCiwKuOjINz"
 }

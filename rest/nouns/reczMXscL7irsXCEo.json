@@ -1,7 +1,20 @@
 {
+  "attrs": [
+    "recMRuFK7hohfI2OU"
+  ],
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Verbs",
+  "name": "Verb",
+  "DevelopmentProjects": [
+    "reczeIaULSS7Ysv50",
+    "recEtliqbT7NokKVQ",
+    "recJhBh091IupwtpE",
+    "recmRO8vB9vakN2UC"
+  ],
+  "lower": "verb",
+  "Sentences": [
+    "recBzObEzw5eenh2C"
+  ],
   "id": "reczMXscL7irsXCEo"
 }

@@ -1,7 +1,15 @@
 {
+  "attrs": [
+    "recGwSn4bafDdpCAa",
+    "reciPl4RZssXTvqSg"
+  ],
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "ProjectsFrameworks",
+  "name": "ProjectFramework",
+  "lower": "projectframework",
+  "Sentences": [
+    "recSTdRwDhn43XqyH"
+  ],
   "id": "recZiCYzo05U2Pwns"
 }

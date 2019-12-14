@@ -2,6 +2,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Noun detecttor",
+  "name": "NounDetection",
+  "lower": "noundetection",
+  "Sentences": [
+    "rec60MmrOPqxD7w28"
+  ],
   "id": "recKLqrkGAWJH2aKA"
 }
