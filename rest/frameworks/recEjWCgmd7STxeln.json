@@ -1,8 +1,8 @@
 {
-  "official": true,
+  "name": "vuejs",
   "layersFrameworksReleases": [
     "rec3ldfdmxW9P2RxU"
   ],
-  "tag": "vuejs",
+  "official": true,
   "id": "recEjWCgmd7STxeln"
 }

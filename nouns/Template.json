@@ -1,22 +1,33 @@
 {
+  "name": "Template",
   "attrs": [
     {
-      "name": "file_path_template",
+      "name": "framework",
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
       "noun": [
         "recFDyEDM3s1Fb0M5"
       ],
+      "id": "recE4QhPJIpEghg8W"
+    },
+    {
+      "name": "template_file_path",
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "recFDyEDM3s1Fb0M5"
       ],
       "id": "recfB0tB44d5vMfF4"
     },
     {
       "name": "verb",
-      "noun": [
-        "recFDyEDM3s1Fb0M5"
-      ],
       "type": [
         "rechkBokzxLsjrRGa"
+      ],
+      "noun": [
+        "recFDyEDM3s1Fb0M5"
       ],
       "id": "recjyAaPaPF1Knazp"
     },
@@ -31,10 +42,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Template",
-  "lower": "template",
   "Sentences": [
-    "recUKaXnNckxVLxuw"
+    "recUKaXnNckxVLxuw",
+    "recDvOrgAB8dcALfn"
   ],
+  "lower": "template",
   "id": "recFDyEDM3s1Fb0M5"
 }

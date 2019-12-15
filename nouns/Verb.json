@@ -1,12 +1,13 @@
 {
+  "name": "Verb",
   "attrs": [
     {
       "name": "name",
-      "noun": [
-        "reczMXscL7irsXCEo"
-      ],
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "reczMXscL7irsXCEo"
       ],
       "id": "recMRuFK7hohfI2OU"
     }
@@ -14,7 +15,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Verb",
+  "Sentences": [
+    "recBzObEzw5eenh2C",
+    "recdaqclXZLGVwxaV"
+  ],
   "DevelopmentProjects": [
     "reczeIaULSS7Ysv50",
     "recEtliqbT7NokKVQ",
@@ -22,8 +26,5 @@
     "recmRO8vB9vakN2UC"
   ],
   "lower": "verb",
-  "Sentences": [
-    "recBzObEzw5eenh2C"
-  ],
   "id": "reczMXscL7irsXCEo"
 }

@@ -3,5 +3,11 @@
   "objective": "Generation",
   "verb": "Model",
   "actor": "Developer",
-  "sentence_string": "Developer Model Generation"
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer Model Generation",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
 }

@@ -1,32 +1,33 @@
 {
+  "name": "Attr",
   "attrs": [
     {
       "name": "name",
-      "noun": [
-        "recHAY0E9vSgB4pMW"
-      ],
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "recHAY0E9vSgB4pMW"
       ],
       "id": "rec0ngF8KgKPuhADy"
     },
     {
       "name": "type",
-      "noun": [
-        "recHAY0E9vSgB4pMW"
-      ],
       "type": [
         "rechkBokzxLsjrRGa"
+      ],
+      "noun": [
+        "recHAY0E9vSgB4pMW"
       ],
       "id": "recYThnNt3ZfKibdk"
     },
     {
       "name": "noun",
-      "noun": [
-        "recHAY0E9vSgB4pMW"
-      ],
       "type": [
         "rechkBokzxLsjrRGa"
+      ],
+      "noun": [
+        "recHAY0E9vSgB4pMW"
       ],
       "id": "recdIQSmoHRl7E0cM"
     }
@@ -34,10 +35,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Attr",
-  "lower": "attr",
   "Sentences": [
-    "recsMAkF75E5nlmGN"
+    "recsMAkF75E5nlmGN",
+    "recs2hF6nVhSwwNHL"
   ],
+  "lower": "attr",
   "id": "recHAY0E9vSgB4pMW"
 }

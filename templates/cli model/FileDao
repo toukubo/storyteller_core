@@ -1,0 +1,42 @@
+
+class {{name}}{{framework}}Dao{
+
+    {{#attrs}}
+    findBy{{upper}}({{name}}){
+        var file_path = process.cwd()+"/{{noun_lower}}s/" +  {{name}} + ".json"
+        this.jsonObject = {}
+        var jsonObject = require(file_path)
+        return jsonObject
+    }
+    {{/attrs}}
+
+    {{#attrs}}
+    findBy{{upper}}({{upper}}){
+        {{noun_lower}}s = this.loadAll()
+        var found = {}
+        {{noun_lower}}s.forEach({{noun_lower}} => {
+            if( {{noun_lower}}.{{name}} === {{name}} ){
+                found = {{noun_lower}}
+            }
+        });
+        return found
+    }
+    {{/attrs}}
+    
+    loadAll() {
+        var fs = require('fs');
+        var {{noun_lower}}s = []
+        var {{noun_lower}}Files = fs.readdirSync(process.cwd() + '/{{noun_lower}}s/');
+
+        {{noun_lower}}sFiles.forEach({{noun_lower}}File => {
+            if ({{noun_lower}}File.endsWith(".json")) {
+                var jsonObject = require(process.cwd() + '/{{noun_lower}}s/' + {{noun_lower}}File)
+                {{noun_lower}}s.push(jsonObject)
+            }
+
+        });
+        return {{noun_lower}}s
+    }
+
+}
+module.exports = new {{name}}Dao()

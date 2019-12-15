@@ -1,4 +1,5 @@
 {
+  "name": "Verbing",
   "attrs": [
     "recmvyWiR1CLyQZos",
     "recLH7kqfWqHNC2BF",
@@ -9,16 +10,17 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Verbing",
+  "Sentences": [
+    "receqmue2FxgC2Tsj",
+    "recevkop2tELdj9aD",
+    "recReErbDOVLdQY5L"
+  ],
   "DevelopmentProjects": [
     "recOwwP24n0dPrQVZ",
     "recBySzCXmQIESA4g",
-    "recu1uzPAYucjegZt"
+    "recu1uzPAYucjegZt",
+    "recbVbzNHCgaIEyQK"
   ],
   "lower": "verbing",
-  "Sentences": [
-    "receqmue2FxgC2Tsj",
-    "recevkop2tELdj9aD"
-  ],
   "id": "recFtSj4VwnNs8mad"
 }

@@ -1,0 +1,13 @@
+{
+  "id": "rec18iE1qQKSsRt5H",
+  "objective": "Execution",
+  "verb": "FileDao",
+  "actor": "Developer",
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer FileDao Execution",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
+}

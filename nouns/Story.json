@@ -1,22 +1,23 @@
 {
+  "name": "Story",
   "attrs": [
     {
       "name": "main",
-      "noun": [
-        "recgpyZn8LsyyPRKy"
-      ],
       "type": [
         "recALYcQVLg2vGdXV"
+      ],
+      "noun": [
+        "recgpyZn8LsyyPRKy"
       ],
       "id": "rec9a1oMEn52fPNpr"
     },
     {
       "name": "narrative",
-      "noun": [
-        "recgpyZn8LsyyPRKy"
-      ],
       "type": [
         "recnFy1Wp07CZigEU"
+      ],
+      "noun": [
+        "recgpyZn8LsyyPRKy"
       ],
       "id": "recct3BSucDq87pxC"
     }
@@ -24,10 +25,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Story",
-  "lower": "story",
   "Sentences": [
-    "reclnovDueXmjxh1Z"
+    "reclnovDueXmjxh1Z",
+    "recr6237Juj7f069m"
   ],
+  "lower": "story",
   "id": "recgpyZn8LsyyPRKy"
 }

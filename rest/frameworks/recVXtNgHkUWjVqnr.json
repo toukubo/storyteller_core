@@ -1,9 +1,9 @@
 {
-  "official": true,
+  "name": "airtable",
   "layersFrameworksReleases": [
     "rec1OODnf8Eo5Xndx",
     "recelcplXJ2JdOtoZ"
   ],
-  "tag": "airtable",
+  "official": true,
   "id": "recVXtNgHkUWjVqnr"
 }

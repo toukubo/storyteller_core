@@ -1,0 +1,15 @@
+class {{name}}{
+    constructor(){
+        this.{{name}}dao = new {{name}}DAO();
+    }
+    create(let object){
+	
+    }
+    update(id){
+       
+    }
+    delete(){
+    }
+    show(){
+    }
+}

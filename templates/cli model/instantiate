@@ -1,0 +1,9 @@
+    instantiate(json){
+        {{#attrs}}
+        this.{{name}}=this.json.{{name}}
+        {{/attrs}}
+        {{#nounAttrs}}
+        this.{{name}}sJson = this.json.{{name}}s
+        this.{{name}}s = []
+        {{/nounAttrs}}
+    }

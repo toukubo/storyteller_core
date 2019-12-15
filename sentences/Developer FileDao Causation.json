@@ -1,0 +1,13 @@
+{
+  "id": "recgCU7vs7LzLsk9j",
+  "objective": "Causation",
+  "verb": "FileDao",
+  "actor": "Developer",
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer FileDao Causation",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
+}

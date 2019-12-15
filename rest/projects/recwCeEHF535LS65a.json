@@ -1,5 +1,6 @@
 {
-  "Nouns": [
+  "name": "storyteller_cli",
+  "nouns": [
     "recdGpAYezmCAW6X7",
     "recHAY0E9vSgB4pMW",
     "recrv2mVbxTWVO9q6",
@@ -24,6 +25,58 @@
   "account": [
     "recEMDXt0SJOJ95yF"
   ],
-  "name": "storyteller_cli",
+  "frameworks": [
+    "recHKXv1RJqPGMW2d",
+    "recQY8O80xOZv6XU1"
+  ],
+  "sentences": [
+    "recpZr6qlVJnWauKo",
+    "receqmue2FxgC2Tsj",
+    "recylsc0Mqppfbasa",
+    "rec9wWfcMnXJMHxCP",
+    "recsMAkF75E5nlmGN",
+    "recmmymlYWgvV0aWY",
+    "recN144bedn1WcGgN",
+    "recTaAoTwnhMN5j2T",
+    "rec47NBGG2BS9UiPD",
+    "recLHW5B55dB1EaIO",
+    "recoR4JdVrdyy8hwq",
+    "recyPo6qRSqQZd4Qo",
+    "rec60MmrOPqxD7w28",
+    "reczofr0ADUdzgyYE",
+    "recfkAdO3Iy3lXHbC",
+    "recT5mOgJBHTNRJA1",
+    "recd4SixYH2hkN64l",
+    "recSTdRwDhn43XqyH",
+    "recTtA1WXe7vfMOHL",
+    "reclnovDueXmjxh1Z",
+    "recUKaXnNckxVLxuw",
+    "recBzObEzw5eenh2C",
+    "recevkop2tELdj9aD",
+    "recVaOvAebYk2T6q8",
+    "recLJXnGQp50xWH9X",
+    "recs2hF6nVhSwwNHL",
+    "recrB7HdwG4hGaWX5",
+    "recgCU7vs7LzLsk9j",
+    "recEfvceeVFRX8wvM",
+    "rec18iE1qQKSsRt5H",
+    "rec1YsUvLy8R6uqXp",
+    "rectX6JkNDekDvj2u",
+    "recMxSq6bmjBYdJsl",
+    "reclH50ZTm4ycOc6s",
+    "recKNFLLR2Ko5A705",
+    "recyoTkyubwd3eFcw",
+    "recnWNVqIwRJT2j5U",
+    "recK0aAxcDypSeGlS",
+    "recYllDNpkkE8Q2mP",
+    "rec5FFW5ZJ1pifiIN",
+    "recr6237Juj7f069m",
+    "recDvOrgAB8dcALfn",
+    "recdaqclXZLGVwxaV",
+    "recReErbDOVLdQY5L",
+    "recVcHvtOogqIqWAj"
+  ],
+  "repository_name": "https://github.com/toukubo/storyteller_cli",
+  "repository_user_name": "toukubo",
   "id": "recwCeEHF535LS65a"
 }

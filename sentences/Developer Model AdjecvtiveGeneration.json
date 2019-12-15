@@ -3,5 +3,11 @@
   "objective": "AdjecvtiveGeneration",
   "verb": "Model",
   "actor": "Developer",
-  "sentence_string": "Developer Model AdjecvtiveGeneration"
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer Model AdjecvtiveGeneration",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
 }

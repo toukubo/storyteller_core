@@ -1,4 +1,5 @@
 {
+  "name": "Story",
   "attrs": [
     "recZfNrcdlgVuVsjC",
     "recct3BSucDq87pxC",
@@ -7,10 +8,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Story",
-  "lower": "story",
   "Sentences": [
-    "reclnovDueXmjxh1Z"
+    "reclnovDueXmjxh1Z",
+    "recr6237Juj7f069m"
   ],
+  "lower": "story",
   "id": "recgpyZn8LsyyPRKy"
 }

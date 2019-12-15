@@ -1,0 +1,58 @@
+class {{name}} {
+    constructor() {
+        this.{{lower}}Dao = require('../daos/{{lower}}_dao.js')
+    }
+
+    instantiate(json) {
+        var {{lower}} = new {{name}}()
+
+        {{lower}}.json = json
+
+        {{#attrs}}
+        {{lower}}.{{name}} = {{lower}}.json.{{name}}
+
+        // this is for nested models. to reference to the {{name}} model {{lower}}ibutes
+        {{lower}}.{{name}}sJson = {{lower}}.json.{{name}}s
+        {{lower}}.{{name}}s = []
+        {{lower}}.{{name}}sJson.forEach({{name}}Json => {
+            const {{upper}} = require('./{{name}}.js')
+            var {{name}} = {{upper}}.instantiate({{name}}Json)
+            {{name}}.set{{noun_name}}({{name}})
+            {{lower}}.{{name}}s.push({{name}})
+        });
+        {{/attrs}}
+        return {{lower}}
+
+    }
+
+    create(req){
+    {{#attrs}}
+        var {{name}} = require('../models/{{name}}.js')
+        this.{{name}} = {{name}}.findById(this.jsonObject.{{name}})
+    {{/attrs}}
+    }
+
+
+    {{#attrs}}
+    findBy{{upper}}({{name}}) {
+        
+        var json = this.{{noun_name}}Dao.findBy{{upper}}({{name}})
+        return this.instantiate(json)
+    }
+    {{/attrs}}
+
+    loadAll() {
+        this.{{lower}}sJson = this.{{lower}}Dao.loadAll()
+
+        var {{lower}}s = []
+        let {{lower}}Class = new {{name}}()
+
+        this.{{name}}sJson.forEach({{name}}Json => {
+            
+            let {{lower}} = {{lower}}Class.instantiate({{name}}Json)
+            {{lower}}s.push({{lower}})
+        });
+        return {{lower}}s
+    }
+}
+module.exports = new {{name}}()

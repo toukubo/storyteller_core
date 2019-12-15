@@ -1,0 +1,2 @@
+bundle exec rails g {{name}} {{#attrs}}{{name}}:{{type}} {{/attrs}}
+(!is_time_stamp_needed) ? --no-timestamps : ""

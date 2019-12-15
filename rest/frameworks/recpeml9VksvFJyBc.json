@@ -1,5 +1,8 @@
 {
+  "name": "rails",
   "official": true,
-  "tag": "rails",
+  "Templates": [
+    "recnFxx0sSHH8XHJP"
+  ],
   "id": "recpeml9VksvFJyBc"
 }

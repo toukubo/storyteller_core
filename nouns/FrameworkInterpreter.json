@@ -1,12 +1,13 @@
 {
+  "name": "FrameworkInterpreter",
   "attrs": [
     {
       "name": "framework",
-      "noun": [
-        "recsh4qblEx9V01Dh"
-      ],
       "type": [
         "rechkBokzxLsjrRGa"
+      ],
+      "noun": [
+        "recsh4qblEx9V01Dh"
       ],
       "id": "recBHq446CUpGWJAR"
     }
@@ -14,10 +15,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "FrameworkInterpreter",
-  "lower": "frameworkinterpreter",
   "Sentences": [
-    "recLHW5B55dB1EaIO"
+    "recLHW5B55dB1EaIO",
+    "rec1YsUvLy8R6uqXp"
   ],
+  "lower": "frameworkinterpreter",
   "id": "recsh4qblEx9V01Dh"
 }

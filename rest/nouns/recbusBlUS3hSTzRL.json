@@ -1,4 +1,5 @@
 {
+  "name": "Sentence",
   "attrs": [
     "recqK8UdhlvmVy93d",
     "recjhg9qw5humv623",
@@ -7,10 +8,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Sentence",
-  "lower": "sentence",
   "Sentences": [
-    "recTtA1WXe7vfMOHL"
+    "recTtA1WXe7vfMOHL",
+    "rec5FFW5ZJ1pifiIN"
   ],
+  "lower": "sentence",
   "id": "recbusBlUS3hSTzRL"
 }

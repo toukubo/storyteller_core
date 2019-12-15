@@ -3,5 +3,11 @@
   "objective": "ProjectCausationGraph",
   "verb": "Model",
   "actor": "Developer",
-  "sentence_string": "Developer Model ProjectCausationGraph"
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer Model ProjectCausationGraph",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
 }

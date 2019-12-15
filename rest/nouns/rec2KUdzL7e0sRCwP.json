@@ -1,11 +1,12 @@
 {
+  "name": "Causation",
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Causation",
-  "lower": "causation",
   "Sentences": [
-    "recN144bedn1WcGgN"
+    "recN144bedn1WcGgN",
+    "recgCU7vs7LzLsk9j"
   ],
+  "lower": "causation",
   "id": "rec2KUdzL7e0sRCwP"
 }

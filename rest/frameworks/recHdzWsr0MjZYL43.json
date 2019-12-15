@@ -1,8 +1,8 @@
 {
-  "official": true,
+  "name": "axios",
   "layersFrameworksReleases": [
     "recCIlmt6VWLhZfzS"
   ],
-  "tag": "axios",
+  "official": true,
   "id": "recHdzWsr0MjZYL43"
 }

@@ -1,4 +1,5 @@
 {
+  "name": "Placement",
   "attrs": [
     "recpiCSmwXLOvAvH3",
     "recYTMMPyOe3kCUKo",
@@ -7,14 +8,14 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Placement",
+  "Sentences": [
+    "recfkAdO3Iy3lXHbC",
+    "recyoTkyubwd3eFcw"
+  ],
   "DevelopmentProjects": [
     "recnqKYqDg2K83u7B",
     "rec11ohAzu3zKVvfY"
   ],
   "lower": "placement",
-  "Sentences": [
-    "recfkAdO3Iy3lXHbC"
-  ],
   "id": "recgSbLCZXbNzuDeI"
 }

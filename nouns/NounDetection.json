@@ -1,12 +1,13 @@
 {
+  "name": "NounDetection",
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "NounDetection",
-  "lower": "noundetection",
   "Sentences": [
-    "rec60MmrOPqxD7w28"
+    "rec60MmrOPqxD7w28",
+    "reclH50ZTm4ycOc6s"
   ],
+  "lower": "noundetection",
   "id": "recKLqrkGAWJH2aKA",
   "attrs": []
 }

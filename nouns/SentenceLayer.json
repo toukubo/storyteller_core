@@ -1,0 +1,27 @@
+{
+  "name": "SentenceLayer",
+  "attrs": [
+    {
+      "name": "layer",
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "noun": [
+        "recdX7DhP90a2GSwR"
+      ],
+      "id": "recJfN4sVVgsNZiIG"
+    },
+    {
+      "name": "sentence",
+      "type": [
+        "rechkBokzxLsjrRGa"
+      ],
+      "noun": [
+        "recdX7DhP90a2GSwR"
+      ],
+      "id": "reckoMA80ptU2jpyW"
+    }
+  ],
+  "lower": "sentencelayer",
+  "id": "recdX7DhP90a2GSwR"
+}

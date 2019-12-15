@@ -3,5 +3,11 @@
   "objective": "NounDetection",
   "verb": "Model",
   "actor": "Developer",
-  "sentence_string": "Developer Model NounDetection"
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer Model NounDetection",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
 }

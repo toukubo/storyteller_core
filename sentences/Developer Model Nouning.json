@@ -3,5 +3,11 @@
   "objective": "Nouning",
   "verb": "Model",
   "actor": "Developer",
-  "sentence_string": "Developer Model Nouning"
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer Model Nouning",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
 }

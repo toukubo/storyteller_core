@@ -1,0 +1,13 @@
+{
+  "id": "recK0aAxcDypSeGlS",
+  "objective": "ProjectCausationGraph",
+  "verb": "FileDao",
+  "actor": "Developer",
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer FileDao ProjectCausationGraph",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
+}

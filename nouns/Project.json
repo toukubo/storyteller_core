@@ -1,62 +1,63 @@
 {
+  "name": "Project",
   "attrs": [
     {
       "name": "core",
-      "noun": [
-        "recrv2mVbxTWVO9q6"
-      ],
       "type": [
         "recALYcQVLg2vGdXV"
+      ],
+      "noun": [
+        "recrv2mVbxTWVO9q6"
       ],
       "id": "rec4esyyZYHjRWTCY"
     },
     {
       "name": "description",
-      "noun": [
-        "recrv2mVbxTWVO9q6"
-      ],
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "recrv2mVbxTWVO9q6"
       ],
       "id": "recAZm42diKaPkhFg"
     },
     {
       "name": "storyteller_branch_name",
-      "noun": [
-        "recrv2mVbxTWVO9q6"
-      ],
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "recrv2mVbxTWVO9q6"
       ],
       "id": "recBcZVvKfeDWJW1f"
     },
     {
       "name": "name",
-      "noun": [
-        "recrv2mVbxTWVO9q6"
-      ],
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "recrv2mVbxTWVO9q6"
       ],
       "id": "recIQyuDn2PMqlewr"
     },
     {
       "name": "repository_name",
-      "noun": [
-        "recrv2mVbxTWVO9q6"
-      ],
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "recrv2mVbxTWVO9q6"
       ],
       "id": "recaxPrvF0gwl5dzj"
     },
     {
       "name": "repository_user_name",
-      "noun": [
-        "recrv2mVbxTWVO9q6"
-      ],
       "type": [
         "recpOLh2T0mHDX3OI"
+      ],
+      "noun": [
+        "recrv2mVbxTWVO9q6"
       ],
       "id": "recrCmCyVpWTpv7hg"
     }
@@ -64,10 +65,10 @@
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Project",
-  "lower": "project",
   "Sentences": [
-    "recT5mOgJBHTNRJA1"
+    "recT5mOgJBHTNRJA1",
+    "recnWNVqIwRJT2j5U"
   ],
+  "lower": "project",
   "id": "recrv2mVbxTWVO9q6"
 }

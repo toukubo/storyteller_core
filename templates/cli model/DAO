@@ -1,0 +1,23 @@
+
+class {{name}}{{framework}}Dao{
+    load(){
+
+    }
+    {{#attrs}}
+    findBy{{attr.name}}(){
+
+    }
+    {{/attrs}}
+    of(){
+        const {{name}} = []
+
+    }
+    // # file data 
+    function(){
+        verb_file_path = VERB_BASE + RESTBASE + "/" + this.name
+        template = fs.readFileSync(verb_file_path, 'utf-8');
+        return template
+    }
+
+}
+module.exports = new {{name}}Dao()

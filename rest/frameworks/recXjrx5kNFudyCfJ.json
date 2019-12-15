@@ -1,8 +1,8 @@
 {
-  "official": true,
+  "name": "itcss",
   "layersFrameworksReleases": [
     "recDcBsdZMxXAVnjJ"
   ],
-  "tag": "itcss",
+  "official": true,
   "id": "recXjrx5kNFudyCfJ"
 }

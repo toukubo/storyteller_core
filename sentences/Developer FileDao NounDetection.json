@@ -1,0 +1,13 @@
+{
+  "id": "reclH50ZTm4ycOc6s",
+  "objective": "NounDetection",
+  "verb": "FileDao",
+  "actor": "Developer",
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer FileDao NounDetection",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
+}

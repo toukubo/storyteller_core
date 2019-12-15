@@ -1,0 +1,13 @@
+{
+  "id": "recLJXnGQp50xWH9X",
+  "objective": "Architect",
+  "verb": "FileDao",
+  "actor": "Developer",
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer FileDao Architect",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
+}

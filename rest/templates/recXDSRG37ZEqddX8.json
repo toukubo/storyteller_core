@@ -1,0 +1,22 @@
+{
+  "Attachments": [
+    {
+      "id": "attIrXW3A2upwmvUO",
+      "url": "https://dl.airtable.com/.attachments/de1d0a6c74136b1bcf9755402bb8e98b/0306d9a9/FileDao",
+      "filename": "FileDao",
+      "size": 1148,
+      "type": "text/plain"
+    }
+  ],
+  "framework": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "verb": [
+    "reciiQWDlGYFQWLVQ"
+  ],
+  "file_path": "daos/{{lower}}_dao.js",
+  "layer": [
+    "rec52Ulei1kQF9Jdb"
+  ],
+  "id": "recXDSRG37ZEqddX8"
+}

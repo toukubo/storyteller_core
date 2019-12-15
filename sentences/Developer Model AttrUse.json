@@ -3,5 +3,11 @@
   "objective": "AttrUse",
   "verb": "Model",
   "actor": "Developer",
-  "sentence_string": "Developer Model AttrUse"
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer Model AttrUse",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
 }

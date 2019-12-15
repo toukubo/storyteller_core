@@ -1,0 +1,13 @@
+{
+  "id": "recYllDNpkkE8Q2mP",
+  "objective": "ProjectFramework",
+  "verb": "FileDao",
+  "actor": "Developer",
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer FileDao ProjectFramework",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
+}

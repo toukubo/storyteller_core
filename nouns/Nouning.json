@@ -1,8 +1,12 @@
 {
+  "name": "Nouning",
   "project": [
     "recwCeEHF535LS65a"
   ],
-  "name": "Nouning",
+  "Sentences": [
+    "reczofr0ADUdzgyYE",
+    "recKNFLLR2Ko5A705"
+  ],
   "DevelopmentProjects": [
     "rec467rVeLrUZXY8s",
     "recWeH9z8opUk6apz",
@@ -12,9 +16,6 @@
     "recx8wMvx3oGxpbR6"
   ],
   "lower": "nouning",
-  "Sentences": [
-    "reczofr0ADUdzgyYE"
-  ],
   "id": "recJGfstkG17BHieP",
   "attrs": []
 }

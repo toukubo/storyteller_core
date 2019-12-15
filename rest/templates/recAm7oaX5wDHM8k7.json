@@ -1,0 +1,22 @@
+{
+  "Attachments": [
+    {
+      "id": "attlW3gQXMH7HoYTs",
+      "url": "https://dl.airtable.com/.attachments/ceb22f392579efddfedab1612a0b2404/f41b94f5/Model",
+      "filename": "Model",
+      "size": 1375,
+      "type": "text/plain"
+    }
+  ],
+  "framework": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "verb": [
+    "recRxkeqcJPijKpA2"
+  ],
+  "file_path": "models/{{lower}}.js",
+  "layer": [
+    "rec94pRcG9rWjOgvM"
+  ],
+  "id": "recAm7oaX5wDHM8k7"
+}

@@ -3,5 +3,11 @@
   "objective": "Verbing",
   "verb": "Model",
   "actor": "Developer",
-  "sentence_string": "Developer Model Verbing"
+  "frameworks": [
+    "recaTET4X1LMXl2p5"
+  ],
+  "sentence_string": "Developer Model Verbing",
+  "project": [
+    "recwCeEHF535LS65a"
+  ]
 }
