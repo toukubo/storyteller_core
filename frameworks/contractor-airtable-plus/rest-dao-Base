@@ -1,0 +1,68 @@
+const AirtablePlus = require('airtable-plus');
+const airtable = require('airtable-plus-rest-dao-config.js');
+const { create } = require('domain');
+const config = { tableName: 'Read' };
+
+class {{name}}{{framework_name}}{{layer_name}}Dao{
+ 
+    create({{lower}}_json){
+        const res = await inst.create({{lower}}_json,config)
+    }
+ 
+    findByID(id){
+        const res = await inst.find(id);
+        return res
+    }
+
+    {{#attrs}}
+    findBy{{upper}}({{name}}){ // this is for the unique key based finding, like it has anotehr key like name, account mail address, one time passwords.
+        const readRes = await airtable.read({
+            filterByFormula: '{{upper}} = '+{{name}},
+            maxRecords: 1
+        });
+        this.jsonObject = {}
+        var jsonObject = require(file_path)
+        return jsonObject
+    }
+    {{/attrs}}
+    
+    {{#attrs}} // this is for OF restriction. 
+    of{{upper}}({{name}}){ 
+        const readRes = await airtable.read({
+            filterByFormula: '{{upper}} = '+{{name}},
+            maxRecords: 500
+        });
+        {{lower}}s = readRes // ? this must be more like the 
+        return {{lower}}s
+    }
+    {{/attrs}}
+    
+    loadAllFromCache() {
+        var fs = require('fs');
+        var {{lower}}s = []
+        var {{lower}}Files = fs.readdirSync(process.cwd() + '/{{lower}}s/');
+
+        {{lower}}sFiles.forEach({{lower}}File => {
+            if ({{lower}}File.endsWith(".json")) {
+                var jsonObject = require(process.cwd() + '/{{lower}}s/' + {{lower}}File)
+                {{lower}}s.push(jsonObject)
+            }
+
+        });
+        return {{lower}}s
+    }
+
+    update({{lower}}_json){
+        const updateRes = await airtable.update({{lower}}_json.id, {
+            Name: 'foobar'
+        }, config);
+        return updateRes
+    }
+
+    delete(id){
+        const deleteRes = await airtable.delete(id,config);
+    }
+
+
+}
+module.exports = new {{name}}Dao()

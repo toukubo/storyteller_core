@@ -1,0 +1,87 @@
+const AirtablePlus = require('airtable-plus');
+const airtable = require('airtable-plus-rest-dao-config.js');
+const { create } = require('domain');
+const config = { tableName: 'Read' };
+
+class {{name}}{{framework_name}}{{layer_name}}{
+ 
+    create({{noun_lower}}_json){
+        const res = await inst.create({{noun_lower}}_json,config)
+    }
+ 
+    findByID(id){
+        const res = await inst.find(id);
+        return res
+    }
+
+    {{#attrs}}
+    findBy{{upper}}({{name}}){
+        const readRes = await airtable.read({
+            filterByFormula: '{{upper}} = '+{{name}},
+            maxRecords: 1
+        });
+        this.jsonObject = {}
+        var jsonObject = require(file_path)
+        return jsonObject
+    }
+    {{/attrs}}
+    
+    {{#attrs}}
+    findBy{{upper}}({{name}}){
+        const readRes = await airtable.read({
+            filterByFormula: '{{upper}} = '+{{name}},
+            maxRecords: 500
+        });
+        {{noun_lower}}s = readRes // ? this must be more like the 
+        return {{noun_lower}}s
+    }
+    {{/attrs}}
+    
+    loadAll() {
+        var fs = require('fs');
+        var {{noun_lower}}s = []
+        var {{noun_lower}}Files = fs.readdirSync(process.cwd() + '/{{noun_lower}}s/');
+
+        {{noun_lower}}sFiles.forEach({{noun_lower}}File => {
+            if ({{noun_lower}}File.endsWith(".json")) {
+                var jsonObject = require(process.cwd() + '/{{noun_lower}}s/' + {{noun_lower}}File)
+                {{noun_lower}}s.push(jsonObject)
+            }
+
+        });
+        return {{noun_lower}}s
+    }
+
+    update({{noun_lower}}_json){
+        const updateRes = await airtable.update({{noun_lower}}_json.id, {
+            Name: 'foobar'
+        }, config);
+        return updateRes
+    }
+
+    delete(id){
+        const deleteRes = await airtable.delete(id,config);
+    }
+
+
+}
+module.exports = new {{name}}Dao()
+
+
+
+(async () => {
+    try {
+
+
+        const updateWhereRes = await airtable.updateWhere('Name = "Foo"', {
+            filterByFormula: 'Name = "foobar"'
+        });
+
+
+        const truncRes = await airtable.truncate();
+    }
+    catch(e) {
+        console.error(e);
+    }
+})();
+
