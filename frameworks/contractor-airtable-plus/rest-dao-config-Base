@@ -1,5 +1,5 @@
 const AirtablePlus = require('airtable-plus');
-require('dotenv')
+require('dotenv').config()
 
 AIRTABLE_BASE_HASH=process.env.AIRTABLE_BASE_HASH
 AIRTABLE_API_KEY=process.env.AIRTABLE_API_KEY
