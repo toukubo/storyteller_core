@@ -1,0 +1,38 @@
+import fetch from "{{lower}}-fetch";
+import { RedashQueryResult, RemoteDataSource } from "../../../{{lower}}";
+import { {{name}} } from "../../{{lower}}s/{{lower}}";
+
+export class {{name}}RedashData implements RemoteDataSource<{{name}}> {
+  // TODO: re{{lower}}
+  static readonly URL =
+    "https://app.redash.io/campfire-inc/api/queries/468763/results.json?api_key=29o1CE24nBQ1Q0b9HOnCmhPYUvHQxTCZz0EtLK5N";
+
+  async fetch(): Promise<{{name}}[]> {
+    const response = await fetch({{name}}RedashData.URL).then(
+      async (res) => (await res.json()) as RedashQueryResult
+    );
+    return response.query_result.data.rows.map((row: {{name}}) =>
+      this.fromData(row)
+    );
+  }
+
+  fromData(row: any): {{name}} {
+    return new {{name}}(
+        {{#attrs}}
+      row.{{name}},
+        {{/attrs}}
+     );
+  }
+
+  async create(_data: any): Promise<void> {
+    throw new Error("not Implemented");
+  }
+
+  async update(_id: number, _data: any): Promise<void> {
+    throw new Error("not Implemented");
+  }
+
+  async delete(_id: number): Promise<void> {
+    throw new Error("not Implemented");
+  }
+}

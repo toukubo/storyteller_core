@@ -1,0 +1,23 @@
+import { Model } from "../../type";
+
+export interface {{name}} extends Model<typeof {{name}}> {}
+
+export class {{name}} implements Model<typeof {{name}}> {
+  constructor(
+      {{#attrs}}
+          readonly {{name}}: any,
+      {{/attrs}}
+  ) {
+      {{#attrs}}
+        this.{{name}} = {{name}};
+      {{/attrs}}
+
+  }
+
+  toData() {
+    return "";
+  }
+}
+
+
+
