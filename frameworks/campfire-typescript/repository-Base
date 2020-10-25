@@ -1,0 +1,14 @@
+import { RemoteDataSource } from "../../{{lower}}";
+import { {{name}} } from "../{{lower}}s/{{lower}}";
+
+export class {{name}}Repository {
+  private datasource: RemoteDataSource<{{name}}>;
+
+  constructor(datasource: RemoteDataSource<{{name}}>) {
+    this.datasource = datasource;
+  }
+
+  async fetchList(): Promise<{{name}}[]> {
+    return this.datasource.fetch();
+  }
+}
