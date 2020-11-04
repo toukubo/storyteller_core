@@ -1,64 +1,73 @@
-export class {{name}}RedashData implements RemoteDataSource<{{name}}> {
+import { RemoteDataSource } from "../../../type";
+import { {{name}} } from "../../models/{{lower}}";
 
-private _tableName = "{{name}}":string
+import airtable from './airtable-plus-rest-dao-config';
+import { create } from 'domain'
 
+const config = { tableName: '{{name}}s' } 
 
+export class {{name}}AirtableData implements RemoteDataSource<{{name}}>{
+ 
+    async create(json:object){
+        const res = await airtable.create(json,config)
+    }
+ 
+    async findByID(id:string){
+        const res = await airtable.find(id);
+        return res
+    }
+    fromData(row: any): {{name}} { 
+        return new {{name}}(
+            {{#attrs}}
+            row.{{name}},
+            {{/attrs}}
+        );
+    }
+    async fetch(): Promise<{{name}}[]> {
+        const response = await fetch({{name}}RedashData.URL).then(
+          async (res) => (await res.json()) as RedashQueryResult
+        );
+        return response.query_result.data.rows.map((row: {{name}}) =>
+          this.fromData(row)
+        );
+      }
+    
 
-async update(): Promise<{{name}}[]> {
-    const response = await fetch(ProjectRedashData.URL).then(
-      async (res) => (await res.json()) as RedashQueryResult
-    );
-    return response.query_result.data.rows.map((row: Project) =>
-      this.fromData(row)
-    );
-  }
-
-const update = (
-    base: any,
     {{#attrs}}
-        {{name}}: {{type}},
-        ) => {
-  return new Promise(resolve => {
-    const content = {
-      id,
-      fields: {
-          {{#attrs}}
-            {{name}}: {{name}},
-          {{/attrs}}
-      }
+    async findBy{{name}}({{name}}:{{type}}){
+        const readRes = await airtable.read({
+            filterByFormula: '{{upper}} = '+{{name}},
+            maxRecords: 1
+        });
+        this.jsonObject = {}
+        var jsonObject = require(file_path)
+        return jsonObject
+    }
+    {{/attrs}}
+    
+    {{#attrs}} // this is for OF restriction. 
+    async of{{upper}}({{name}}){ 
+        const readRes = await airtable.read({
+            filterByFormula: '{{upper}} = '+{{name}},
+            maxRecords: 500
+        });
+        {{lower}}s = readRes // ? this must be more like the 
+        return {{lower}}s
+    }
+    {{/attrs}}
+    
+
+
+    async update(id:string,json:object):Promise<void>{
+        const updateRes = await airtable.update(id, { 
+            Name: 'foobar'
+        }, config);
+        return updateRes
     }
 
-    base(tableName).update([content], function (err: any) {
-      if (err) {
-        console.error(err);
-        return;
-      }
-      resolve(true)
-    });
-  })
-}
-
-const create = (base: any, 
-{{$attrs}}
-  {{name}}: {{type}},
-{{/attrs}
-}) => {
-  return new Promise(resolve => {
-    const fields = {
-      value,
-      project: [projectId],
-      paymentGatewayCompany: [pgId],
-      unpaid,
+    async delete(id:string){
+        const deleteRes = await airtable.delete(id,config);
     }
 
-    base(tableName).create([{ fields }], function (err: any) {
-      if (err) {
-        console.error(err);
-        return;
-      }
-      resolve(true)
-    });
-  })
-}
-}
 
+}
