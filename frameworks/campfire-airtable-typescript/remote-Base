@@ -1,3 +1,18 @@
+
+# EXTERNAL TEMP
+import {{Name}}AirtableData from 
+
+let {{lower}} = await {{name}}s.({{lower}})
+let {{lower}} = await {{name}}s.findByID(id)
+await {{name}}s.update({{lower}})
+await {{name}}s.delete({{lower}})
+await {{name}}s.truncate()
+
+
+
+
+
+
 import { RemoteDataSource } from "../../../type";
 import { {{name}} } from "../../models/{{lower}}";
 
@@ -12,6 +27,33 @@ export class {{name}}AirtableData implements RemoteDataSource<{{name}}>{
         const res = await airtable.create(json,config)
     }
  
+  async create_ten(projects: Project[]): Promise<void> {
+    var Airtable = require('airtable');
+    const dotenv = require('dotenv');
+    dotenv.config()
+    var base = new Airtable({ apiKey: process.env.apiKey }).base(process.env.base);
+    let airtable_formatted_list: any = []
+    {{lower}}s.forEach({{lower}} => {
+      const fields: { [key: string]: any } = {
+          {{#attrs}}
+           {{name}}: {{lower}}.{{name}},
+          {{/attrs}}
+      }
+      airtable_formatted_list.push({ "fields": fields })
+    });
+
+    return new Promise(resolve => {
+      base('ProjectReportsPerPaymentTypes').create(airtable_formatted_list, function (err: any) {
+        if (err) {
+          console.error(err);
+          return;
+        }
+        resolve()
+      });
+    })
+  }
+
+
     async findByID(id:string){
         const res = await airtable.find(id);
         return res
@@ -24,12 +66,7 @@ export class {{name}}AirtableData implements RemoteDataSource<{{name}}>{
         );
     }
     async fetch(): Promise<{{name}}[]> {
-        const response = await fetch({{name}}RedashData.URL).then(
-          async (res) => (await res.json()) as RedashQueryResult
-        );
-        return response.query_result.data.rows.map((row: {{name}}) =>
-          this.fromData(row)
-        );
+        return []
       }
     
 
@@ -68,6 +105,62 @@ export class {{name}}AirtableData implements RemoteDataSource<{{name}}>{
     async delete(id:string){
         const deleteRes = await airtable.delete(id,config);
     }
+
+
+
+
+
+  async _readAll(): Promise<object[]> {
+    const readRes = await airtable.read({
+      fields:['id']
+    },config);
+    return readRes
+  }
+
+
+  async truncate(): Promise<void> {
+    let {{lower}}s = await this._readAll()
+
+
+    let ids_pack: string[] = new Array()
+    let packs: object[] = new Array()
+    for (let index = 0; index < {{lower}}s.length; index++) {
+      //@ts-ignore
+      ids_pack.push({{lower}}s[index].id)
+
+      if (ids_pack.length === 10) {
+        packs.push(ids_pack)
+        ids_pack = new Array()
+      }
+    }
+
+    require('array-foreach-async');
+    const delete_ten = this.delete_ten
+    //@ts-ignore
+    await packs.forEachAsync(async function ({{lower}}sPack: Project[]) {
+      //@ts-ignore
+      await delete_ten({{lower}}sPack)
+    })
+  }
+  async delete_ten(ids: string[]): Promise<void> {
+    console.log("deleting 10 from airtable --")
+    var Airtable = require('airtable');
+    const dotenv = require('dotenv');
+    dotenv.config()
+    var base = new Airtable({ apiKey: process.env.apiKey }).base(process.env.base);
+
+    return new Promise(resolve => {
+      try {
+        base('{{name}}s').destroy(ids, function (err: any) {
+          console.log(err)
+          resolve()
+        });
+      } catch (error) {
+        console.log(error)
+      }
+    })
+  }
+
 
 
 }

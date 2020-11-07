@@ -1,6 +1,6 @@
-import fetch from "{{lower}}-fetch";
+import fetch from "node-fetch";
 import { RedashQueryResult, RemoteDataSource } from "../../../{{lower}}";
-import { {{name}} } from "../../{{lower}}s/{{lower}}";
+import { {{name}} } from "../../models/{{lower}}";
 
 export class {{name}}RedashData implements RemoteDataSource<{{name}}> {
   // TODO: re{{lower}}

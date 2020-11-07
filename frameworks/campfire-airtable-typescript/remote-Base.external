@@ -1,0 +1,19 @@
+
+
+import {{Name}}AirtableData from 
+
+let {{lower}} = await {{name}}s.({{lower}})
+let {{lower}} = await {{name}}s.findByID(id)
+await {{name}}s.update({{lower}})
+await {{name}}s.delete({{lower}})
+await {{name}}s.truncate()
+
+
+
+
+{{#attrs}}
+let {{lower}} = await {{lower}}s.findBy{{upper}}({{name}})
+{{/attrs}}
+
+
+
